@@ -45,6 +45,7 @@ Index.propTypes = {
     dispatch: PropTypes.func.isRequired
 }
 
+
 function mapStateToProps(state) {
     return {
         session: state.session,
